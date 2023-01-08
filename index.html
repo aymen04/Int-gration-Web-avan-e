@@ -1,0 +1,149 @@
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site IntéWeb</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <style>@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');</style>
+    <style>@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');</style>
+    
+</head>
+
+<body>
+    <!-- formulaire en hide-->
+    <form action="" id="formulaire">
+        <h2>Nous contacter</h2><a class="close" href="#">&times;</a>
+        <p>Donnez toutes les infos concernant votre événement.Nous reviendrons vers vous très prochainement</p>
+        <input type="text" placeholder="Votre nom" />
+        <input type="text" placeholder="Votre email" />
+        <input type="text" placeholder="Numéro de téléphone" />
+        
+        <div class="range">
+            <label>Nombre de personnes:</label>
+            <p>2</p>
+        <input type="range" min="2" max="15" id="range" />
+            <p>15</p>
+        </div>
+
+        <div class="date">
+        <label style="display:block ; margin-top: 25px;">Date du repas:</label>
+        <input type="date" id="date">
+        </div>
+
+    
+
+        <button id="envoyer">Envoyez la demande</button>
+        <button id="annuler">Annulez la demande</button>
+        <div id="message"></div>
+    </form>
+    
+
+    <!-- -->
+    <header>
+        <nav>
+            <img class="logo-blanc" src="img/logo-blanc.png" alt="">
+            <div class="onglets">
+                <a href="#concept">Concept</a>
+                <a>Services</a>
+                <a>Blog</a>
+                <button href="#formulaire" id="organiser">J'organise un repas</button>
+            </div>
+        </nav>
+        <div class="bloc">
+        <h1 style="font-family:'Abril Fatface', cursive; font-size: 11vh;" class="bloc">Traiteur à domicile</h1>
+        <p class="bloc">Organiser des repas en famille ou entre amis, sans <br> vous préoccuper de quelconque préparatif !</p>
+    </div>
+    </header>
+
+      
+    <section class="main" id="concept">
+        <h1>Le concept Bien Chez Soi</h1>
+        <div class="content">
+            <div class="card">
+                <div class="left">
+                    <p style="font-weight:bold ;">Profitez d'un traiteur à domicile<br> offrant un large choix de cuisines.</p>
+                </div>
+                <div class="right">
+                    <p>Vous recevez des amis ou de la famille mais vous ne vous préoccupez pas des courses , de la préparation ou du rangement. Profitez simplement de votre momententre amis ou famille. </p> 
+                </div>
+            </div>
+        </div>
+        <h1>Comment ça marche ?</h1>
+        <div class="content1">
+            <div class="Reserv">
+
+                <img src="img/1-concept.png">
+                <p>Vous réservez pour votre repas et<br> indiquez le type de cuisine désirée</p>
+
+            </div>
+
+            <div class="JourJ">
+
+                <img src="img/2-concept.png">
+                <p>Le Jour J, votre traiteur se présente<br> au lieu désiré et cuisine sous vos yeux </p>
+
+            </div>
+
+            <div class="Repas">
+                <img src="img/3-concept.png"></img>
+                <p>Vous profitez d'un succulent<br> repas en présence de vos proches</p>
+
+            </div>
+        </div>
+        
+        <div class="content2">
+            <img src="img/photo_couteau.png" class="couteau">
+            <div class="fondateur">
+            <img src="img/fondator-1.png" class="fondateur1">
+            <img src="img/fondator-2.png" class="fondateur2">
+        </div>
+            <div class="black">
+                <div class="text">
+                <h2 style="text-align-last:center ; font-family:'Abril Fatface', cursive; font-size: 7vh;">Qui sommes-nous?</h2>
+                <p style="text-align: center ;">Bien Chez Soi est né de l'amour pour la bouffe.<br>Julien et Jérome sont 2 amis de longue date qui ont suivi<br>leur passion en se formant dans la cuisine et<br> la patisserie de chef avant de proposer leur<br>travaillent auprès de grands chefs avant de proposer leur<br> propre service de traiteur abordableet familial.</p>
+                </div>
+            </div>
+        </div>
+        <button href="#formulaire" id="organiser1">J'organise un repas</button>
+        
+    </section>
+
+
+
+<footer>
+    <div class="foot1">
+        <img src="img/logo-blanc.png" class="logofoot">
+        <p style="font-size: 2vh; " class="pfoot1">Service de traiteur à domicile</p>
+    </div>
+
+    <div class="foot2">
+        <h3 style="font-family:'Abril Fatface', cursive;">Liens utiles</h3>
+        <ul>
+            <li>Le Concept</li>
+            <li>Qui sommes-nous ?</li>
+            <li>Le blog</li>
+            <li>Contact</li>
+        </ul>
+    </div>
+
+        <div class="reseaux">
+            <p style="font-family:'Abril Fatface', cursive;">Retrouvez nous sur les réseaux</p>
+            <div class="media">
+            <img src="img/logo-fb-simple.png" class="fb">
+            <img src="img/logo-instagram.png" class="insta">
+            <img src="img/pinterest.png" class="pinterest">
+            </div>
+        </div>
+
+</footer>
+<script src="script.js"></script>
+</body>
+  </html>
+
+  <script>
+  document.getElementById("envoyer").addEventListener("click", function(event) {
+    event.preventDefault(); // Empêche l'envoi du formulaire
+    document.getElementById("message").innerHTML = "Le formulaire a été envoyé avec succès !";
+  });
+</script>

@@ -1,0 +1,646 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+}
+.logo-blanc {
+width: 171px;
+margin-bottom: 37px;
+}
+nav{
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+gap: 20vh;
+margin-top: -24px;
+
+}
+
+nav h1{
+color: #717171;
+font-family: 'Playfair Display', serif;
+font-size: 30px;
+}
+a {
+color: white;
+text-decoration: none;
+font-family: 'Work Sans', sans-serif;}
+nav .onglets{
+margin-left: 751px;
+margin-top: -374px;
+}
+nav .onglets a{
+text-decoration: none;
+margin-right: 62px;
+padding-bottom: 5px;
+font-family: 'Work Sans', sans-serif;}
+
+
+.box {
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+
+button {
+    padding: 15px 41px;    
+    background-color: black;
+    color:white;
+    border:none;
+    margin-top: 33px;
+    margin-bottom: 70px;
+    outline:none;
+    font-size: 14px;
+    font-family: 'Work Sans', sans-serif;
+    cursor: pointer;
+    text-decoration: none;
+} 
+
+button#annuler{
+    background-color: white;
+    border: none;
+    margin-top: -66px;
+    margin-left: 323px;
+    display: flex;
+    text-decoration: underline;
+    color: gray;}
+
+.button {
+    padding: 15px 27px;    
+    background-color: black;
+    color:white;
+    border:none;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    outline:none;
+    font-size: 20px;
+    font-family: 'Work Sans', sans-serif;
+    cursor: pointer;
+    text-decoration: none;
+}
+.overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.8);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+}
+.overlay:target {
+    visibility: visible;
+    opacity: 1;
+}
+.wrapper {
+    margin: 70px auto;
+    padding: 20px;
+    background: #e7e7e7;
+    border-radius: 5px;
+    width: 30%;
+    position: relative;
+    transition: all 5s ease-in-out;
+}
+.wrapper h2 {
+    margin-top: 0;
+    color: #333;
+}
+.wrapper .close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+}
+.wrapper .close:hover {
+    color: #06D85F;
+}
+.wrapper .content {
+    max-height: 30%;
+    overflow: auto;
+}
+
+
+.container {
+    border-radius: 5px;
+    background-color: #e7e7e7;
+    padding: 20px 0;
+}
+
+input[type=text], select, textarea {
+    width: 50%;
+    padding: 12px;
+    border: 2px solid rgb(0, 0, 0);
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    border-top: white;
+    border-left: white;
+    border-right: white;
+    font-family: 'Work Sans';
+}
+input[type="submit"] {
+    background-color: #413b3b;
+    color: #fff;
+    padding: 15px 50px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+header{
+display: flex;
+flex-direction: column;
+align-items: center;
+background: url(img/photo.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+color: #fff;
+padding: 40px;
+height: 80vh;
+background-position: center;
+background-position-y: -1100px;
+}
+
+.bloc {
+    margin-top: 150px;
+    text-align: center;
+    width: 93vh;
+    height: 17vh;
+    font-size: 3vh;
+    margin-top: 2;
+    margin: -1px;
+    margin-bottom: auto;
+    background-color: #000000;
+    opacity: 82%;
+    display: inline-table;
+}
+h1 {
+font-family: 'Abril Fatface';
+text-align: center;
+font-size: 50px;
+}
+
+h1.bloc {
+    font-family: 'Abril Fatface';
+    text-align: center;
+    font-size: 50px;
+    }
+p {
+font-family: 'Work Sans', sans-serif;
+
+}
+
+
+
+.main{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main .content .card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom:20px;
+    gap: 20px;
+
+}
+.main .content .card .left{
+    padding: 20px;
+    border: #000 solid;
+    box-shadow: 12px 12px 2px 1px rgb(0 0 0);
+    color: black;
+    margin-left: -612px;
+    height: 55px;
+    margin-top: 18px;
+    display: flex;
+}
+.main .content .card .right {
+    flex: 0 1 54%;
+    padding: 20px;
+    word-spacing: 14px;
+    margin-right: -433px;
+    color:black;
+}
+
+
+
+
+
+
+.content1{
+ display: flex;
+ text-align: center;
+ align-items: baseline;
+ gap: 137px;
+}
+
+img{
+    width: 12vh;
+}
+.Reserv  {
+display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.JourJ{
+    display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+.Repas{
+    display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+img.couteau{
+    width: 56%;
+}
+
+.content2{
+    display: flex;
+    margin-top: 112px;
+    height: 77vh;
+    width: 100%;
+}
+
+img.fondateur1{
+    width: 107px;
+    height: 100px;
+    margin-right: -31px;
+    margin-top: -32px;
+}
+img.fondateur2{
+    width: 107px;
+    height: 100px;
+    margin-top: 43px;
+}
+
+.black{
+    background-color: #000;
+    color: white;
+    width: 58%;
+    padding: 152px;
+}
+
+div.fondateur{
+    z-index: 1;
+    margin-left: -276px;
+    display: flex;
+}
+
+footer{
+    display: flex;
+    background-color: #000;
+    color:white;
+    height: 228px;
+}
+
+.fb{
+    width: 25px;
+}
+.insta{
+    width: 25px;
+}
+.pinterest{
+    width: 25px;
+}
+
+.foot1{
+    text-align: center;
+    margin-left: 44px;
+    margin-top: 84px;
+}
+
+.logofoot{
+    width: 20vh;
+}
+
+.foot2{
+    margin-left: 272px;
+    margin-top: 40px;
+}
+
+.reseaux{
+    margin-left: 316px;
+    margin-top: 71px;
+}
+
+ul{
+    margin-left: -25px;
+    list-style-type: none;
+}
+
+li{
+    margin-top: 11px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.media{
+    display: flex;
+    gap: 20px;
+}
+
+  
+#formulaire{
+    position: fixed;
+    z-index: 10;
+    width: 59vw;
+    height: 80vh;
+    background-color: white;
+    text-align: center;
+    margin-left: 35vh;
+    margin-top: 5vh;
+    padding: 27px;
+    transition: .5s;
+}
+
+
+#range{
+    width: 50%;
+}
+
+#date{
+    width: 50%;
+    margin: auto;
+    border-top: black;
+    border-left: black;
+    border-right: white;
+    margin-top: 20px;
+}
+
+.annuler{
+    margin-top: 4px;
+    color: gray;
+    border: solid;
+    width: 20%;
+    margin: auto;
+    margin-top: -59px;
+    border-top: white;
+    border-right: white;
+    border-left: white;
+}
+
+h2{
+    font-family: 'Abril Fatface';
+}
+
+label{
+    font-family: 'Work Sans';
+}
+
+
+@media only screen and (max-width: 768px) {
+.onglets{
+        display: none;
+    }
+
+    header{
+        width: 125%;
+        background-position-y: -991px;
+        padding: 334px;
+        height: 245vh;
+    }
+    .logo-blanc{
+        margin-top: -419px;
+        margin-right: 128vh ;
+        width: 401px;
+        margin-left: auto;
+    }
+
+    .bloc{
+        width: 167vh;
+        text-align: center;
+        font-size: 10vh;
+        height: -3vh;
+        margin-top: 222px;
+    }
+
+    p.bloc{
+        font-size: 9vh;
+    }
+
+    h1 .bloc{
+       font-size :158px;
+    }
+
+    
+    
+    h1{
+        margin-left: 55vh;
+        margin-right: -381px;
+        font-size: 8vh;
+    }
+
+    div .card{
+        display: block;
+    }
+
+    .main .content .card{
+        display: block;
+    }
+
+    .main .content .card .left{
+     margin-right: -756px;
+    font-size: 7vh;
+    text-align: center;
+    justify-content: space-around;
+    height: 27vh;
+    display: inline-flex;
+    margin-left: 4%;
+    width: 208%;
+    }
+
+
+   div.right{
+
+        flex: 0 1 54%;
+        margin-right: -915px;
+        font-size: 7vh;
+        text-align: inherit;
+        margin-left: 46px;
+        word-spacing: 20px;
+        padding: 20px;
+        word-spacing: 24px;
+        margin-right: -716px;
+        color: black;
+    }
+
+    .main{
+        margin-top: -903px;
+    }
+
+
+    div.content1{
+    margin-left: 120%;
+    display: grid;
+    margin-top: 68px;
+    }
+
+    div.content2{
+        display: contents;
+    }
+
+    img{
+        width: 38vh;
+    }
+
+    p{
+        font-size: 5vh;
+    }
+
+    
+ 
+    .black{
+        display: block;
+        background-color: #000;
+        color: white;
+        width: 42%;
+        height: 80vh;
+        padding: 152px;
+        margin-left: 757px;
+        width: 733px;
+        margin-top: -134px;
+    }
+
+    div.text{
+        width: 108vh;
+    }
+
+    img.couteau{
+        display: none;
+    }
+
+    div.fondateur{
+        margin-left: 725px;
+        margin-top: 151px;
+    }
+
+
+    img.fondateur1{
+    width: 150px;
+    height: 25vh;
+    margin-top: -18px;
+    }
+
+    img.fondateur2{
+        height: 23vh;
+        width: 172px;
+        margin-top: 60px;
+    }
+    
+    button#button{
+    margin-left: 119%;
+    width: 75vh;
+    height: 17vh;
+    margin-top: 82px;
+    font-size: 5vh;
+    }
+    
+     .main{
+        margin-top: -903px;
+    }
+
+
+    footer{
+    width: 125%;
+    height: 113vh;
+    margin-left: 42vh;
+    display: block;
+    }
+
+
+    .foot1{
+        text-align: inherit;
+        margin-left: 44px;
+    }
+
+    img.logofoot{
+        margin-top: 33px;
+        width: 50vh;
+    }
+
+    .pfoot1{
+        font-size: 4vh;
+    }
+
+    .foot2{
+        font-size: 4vh;
+        margin-left: 49px;
+        margin-top: 74px;
+    }
+
+    .reseaux{
+    margin-left: 48px;
+    margin-top: 111px;
+    }
+
+
+
+    div.media{
+        gap:36px
+    }
+
+    img.fb {
+        width: 51px;
+    }
+    
+    
+    img.insta {
+        width: 51px;
+    }
+    
+    
+    img.pinterest{
+        width: 51px;
+    }
+
+
+     #formulaire{
+    margin-left: 44vh;
+    margin-top: 55vh;
+    width: 125vw;
+    height: 139vh;
+    background-color: rgb(255, 255, 255);
+    }
+
+    label{
+        font-size: 4vh;
+    }
+
+    input{
+        width: 54%;
+        padding: 16px;
+    }
+
+    p.annuler{
+        width: 31%;
+        font-size: 3vh;
+    }
+
+
+    button#organiser1{
+        margin-left: 104%;
+    }
+
+    button#annuler{
+        margin-top: -75px;
+        margin-left: 271px;
+    }
+}
+
+    
+   
